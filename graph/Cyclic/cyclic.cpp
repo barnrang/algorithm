@@ -1,3 +1,13 @@
+/*
+This program is for determining the existence of a cycle in a graph
+Implemented by DFS complexity O(V+E)
+Input
+N M
+a1 b1 a2 b2
+N,M are no of vertices and edge
+a1, b1 are the vertices that are connected to each other, 2 * M pairs in total
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -6,14 +16,6 @@
 using namespace std;
 
 int is_cyclic(vector <int> g[], int MAX);
-
-/*
-Input
-N M
-a1 b1 a2 b2
-N,M are no of vertices and edge
-a1, b1 are the vertices that are connected to each other, 2 * M pairs in total
-*/
 
 int main(){
     int N, M;
