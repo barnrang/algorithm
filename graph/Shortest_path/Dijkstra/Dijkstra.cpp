@@ -21,12 +21,10 @@ using namespace std;
 
 long M,N;
 long X,Y;
-long weight[1000][1000];
 long dj(struct node graph[]);
 
 struct node{
     vector <pair<long,long> > adj;
-    long no;
     long weight;
 };
 
