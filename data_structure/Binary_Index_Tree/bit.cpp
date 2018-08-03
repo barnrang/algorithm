@@ -15,7 +15,6 @@ using namespace std;
 int* construct_bit(int N, int data[]);
 int inversion_bit(int N, int norm_data[]);
 void update_tree(int N, int tree[], int change, int index);
-void update_tree(int N, int tree[], int change, int index);
 int get_sum(int tree[], int index);
 
 
